@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+ </head>
+<body>
+    <!---These are the image for wheather-->
+    <img src="Sun.png" class="img1">
+    <img src="clouds.jpg"class="img2" >
+    <h1>Saint George, Utah</h1>
+  <table id = "data", border = "15" width = "85%" >
+
+    <thead>
+        <!---These are the width for my heading table-->
+        <th style = "width: 20%;"> Date </th>
+        <th style="width: 40%;"> Forecast </th>
+        <th style="width: 20%;"> Temperature </th>
+        <th style="width: 20%;"> Precipitation</th>
+        <!--Background color for my data-->
+        <col style="background-color: white;" >
+        <col style="background-color: white;" >
+        <col style="background-color: white;" >
+        <col style="background-color: white;" >
+
+    </thead>
+    <tr id = "tablerow">
+        <!--First day of wheather-->
+        <td>12/13/23</td>
+        <td>Mostly Sunny</td>
+        <td>57 F</td>
+        <td>0 in</td>
+
+    </tr>
+    <tr id = "tablerow">
+        <!--Second day of wheather-->
+        <td>12/14/23</td>
+        <td>Mostly Sunny</td>
+        <td>54 F</td>
+        <td>0 in</td>
+
+    </tr>
+    <tr id = "tablerow">
+        <!--Third day of wheather-->
+        <td>12/15/23</td>
+        <td>Mostly Sunny</td>
+        <td>53 F</td>
+        <td>0 in</td>
+
+    </tr>
+    <tr id = "tablerow">
+        <!--Fourth day of wheather-->
+        <td>12/16/23</td>
+        <td>Mostly Sunny</td>
+        <td>57 F</td>
+        <td>0 in</td>
+
+    </tr>
+
+
+
+
+</table>
+<style>
+    /* Body color is blue to make it look clear sky*/
+    body{
+        background-color: aqua;
+        transform: translateY(100px) translateX(50px);
+    }
+    h1{
+        transform: translateX(700px);
+    }
+    /* put the sun in the cornor */
+       .img1{
+    width: fit-content;
+    transform: translateX(1600px)translateY(-100px);
+   }
+   /* Put clouds in the middle */
+   .img2
+   {
+    width: 300px;
+    transform: translateX(500px)translateY(-100px);
+   }
+</style>  
+</body>
+</html>
